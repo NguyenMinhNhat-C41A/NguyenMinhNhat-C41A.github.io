@@ -5,9 +5,10 @@ function NavBar() {
     const navRef = useRef();
     return (
         <header>
-            <h2>NGUYEN MINH NHAT</h2>
+            <div className="HeaderClass"><h2>NGUYEN MINH NHAT</h2></div>
+            
             <nav ref={navRef}>
-                <a href="/#">Home</a>
+                <a href="/#">Projects</a>
                 <a href="/#">Cats</a>
             </nav>
         </header>

@@ -8,9 +8,9 @@
 }
 
 :root{
-    --mainColor: #29335C;
+    --mainColor: #8B0000;
     --textColor: #eee;
-    --secondaryTextColor: var(--mainColor);
+    --secondaryTextColor: #000;
 }
 
 header {
@@ -20,12 +20,16 @@ header {
     height: 80px;
     left: 0;
 }
+.HeaderClass{
+    padding-top: 10px;
+    align-items: center;
+}
 
-header h2 {
+header div h2 {
     display: flex;
     background-color: var(--mainColor);
     width: 100%;
-    height: 80px;
+    height: 70px;
     top: 180px;
     align-items: center;
     

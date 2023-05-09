@@ -1,9 +1,10 @@
 import React from 'react'
-
-export default function TodoList() {
+import Todo from './Todo'
+export default function TodoList({todos}) {
   return (
-    <div>
-      Xin Chao Mat Troi
-    </div>
+    todos.map(todo => {
+      return <Todo key = {todo.id} todo = {todo}/>
+      }
+    )
   )
 }

@@ -8,16 +8,6 @@ function App() {
   const todoNameRef = useRef()
   const LOCAL_STORAGE_KEY = 'todoApp.todos'
 
-  useEffect(() => {
-    const storedTodos = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY))
-    if (storedTodos) setTodos(storedTodos)
-  }, [])
-
-  useEffect(() => {
-    localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(todos))
-  }, [todos])
-
-
   function handleAtTodo(e){
     const name = todoNameRef.current.value
     if (name === '') return

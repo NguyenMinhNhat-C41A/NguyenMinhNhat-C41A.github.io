@@ -14,10 +14,10 @@ function NavBar() {
                     </h2>   
                     <ul>
                         <li>
-                            <a className="headerLinks" href="/#">Projects</a>
+                            <a className="headerLinks" href="/projects">Projects</a>
                         </li>
                         <li>
-                            <a className="headerLinks" href="/#">Cats</a>
+                            <a className="headerLinks" href="/cats">Cats</a>
                         </li>
                     
                     </ul> 

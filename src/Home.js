@@ -4,7 +4,7 @@ import "./Styles/Home.css"
 export default function Home() {
   return (
     <div className='homeContent'>
-      Xin Chào Mặt Trời
+      Home
     </div>
   )
 }

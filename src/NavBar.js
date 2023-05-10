@@ -5,12 +5,27 @@ function NavBar() {
     const navRef = useRef();
     return (
         <header>
-            <div className="HeaderClass"><h2>NGUYEN MINH NHAT</h2></div>
+            <div className="HeaderClass">
+                    
+                <nav ref={navRef}>
+                    <h2>
+                         
+                        <a href="/">NGUYEN MINH NHAT</a>
+                    </h2>   
+                    <ul>
+                        <li>
+                            <a className="headerLinks" href="/#">Projects</a>
+                        </li>
+                        <li>
+                            <a className="headerLinks" href="/#">Cats</a>
+                        </li>
+                    
+                    </ul> 
+                    
+                </nav>
+            </div>
             
-            <nav ref={navRef}>
-                <a href="/#">Projects</a>
-                <a href="/#">Cats</a>
-            </nav>
+            
         </header>
     );
 }

@@ -13,36 +13,21 @@
     --secondaryTextColor: #000;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 80px;
-    left: 0;
-}
-.HeaderClass{
-    padding-top: 10px;
-    align-items: center;
-}
-
-header div h2 {
+.HeaderClass nav{
     display: flex;
     background-color: var(--mainColor);
-    width: 100%;
-    height: 70px;
-    top: 180px;
-    align-items: center;
+    align-items: center;    
+    justify-content: space-between;
+    padding: 0 7rem 0 1rem;
     
 }
 
-nav a {
-    color: #000;
-    text-decoration: none;
-    justify-content: space-between;
+ul li{
+    display: inline;
     padding: 0 2rem;
-    left: 0; 
 }
 
-header h2 {
+a{
+    text-decoration: none;
     color: var(--textColor);
 }

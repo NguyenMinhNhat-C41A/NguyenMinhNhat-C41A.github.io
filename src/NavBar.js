@@ -12,7 +12,6 @@ function NavBar() {
                 <a href="/#">Cats</a>
             </nav>
         </header>
-        
     );
 }
 

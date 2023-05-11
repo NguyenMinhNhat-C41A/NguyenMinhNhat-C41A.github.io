@@ -4,7 +4,7 @@ import MediaCard from './Card'
 
 const info = [
   {name:"BattleTextSim4", content:""},
-  {name:"2hitwonder", content:""},
+  {name:"Matching-Patterns", content:""},
   {name:"3hitwonder", content:""},
 ]
 

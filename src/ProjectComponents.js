@@ -5,7 +5,6 @@ import MediaCard from './Card'
 const info = [
   {name:"BattleTextSim4", content:""},
   {name:"Matching-Patterns", content:""},
-  {name:"3hitwonder", content:""},
 ]
 
 function ProjectComponents() {

@@ -1,0 +1,8 @@
+.projectsPage {
+   /* margin: 10%;
+   margin-top: 20px;
+   justify-content: space-between; */
+    display: flex;
+    justify-content: center;
+
+}

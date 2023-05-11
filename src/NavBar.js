@@ -2,12 +2,12 @@ import {useRef} from "react"
 //import {FaBars, FaTimes} from "react-icons/fa"
 import "./Styles/main.css"
 function NavBar() {
-    const navRef = useRef();
+    // const navRef = useRef();
     return (
         <header>
             <div className="HeaderClass">
                     
-                <nav ref={navRef}>
+                <nav>
                     <h2>
                          
                         <a href="/">NGUYEN MINH NHAT</a>

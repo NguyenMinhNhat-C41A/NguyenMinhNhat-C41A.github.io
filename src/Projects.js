@@ -1,9 +1,12 @@
 import React from 'react'
-
-export default function Projects() {
+import ProjectComponents from './ProjectComponents'
+import "./Styles/Projects.css"
+function Projects() {
   return (
-    <div>
-      <p>Projects</p>
+    <div className='projectsPage'>
+      <ProjectComponents/>
     </div>
   )
 }
+
+export default Projects

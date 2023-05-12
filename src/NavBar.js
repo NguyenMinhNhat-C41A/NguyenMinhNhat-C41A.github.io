@@ -1,4 +1,3 @@
-import {useRef} from "react"
 //import {FaBars, FaTimes} from "react-icons/fa"
 import "./Styles/main.css"
 function NavBar() {

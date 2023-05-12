@@ -1,0 +1,2 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);*{font-family:Roboto,sans-serif;margin:0;padding:0}:root{--mainColor:#8b0000;--textColor:#eee;--secondaryTextColor:#000}.HeaderClass nav{align-items:center;background-color:#8b0000;background-color:var(--mainColor);display:flex;justify-content:space-between;padding:0 7rem 0 1rem}ul li{display:inline;padding:0 2rem}a{color:#eee;color:var(--textColor);text-decoration:none}.projectsPage{display:flex;justify-content:center}
+/*# sourceMappingURL=main.04895aff.css.map*/

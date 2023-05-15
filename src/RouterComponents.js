@@ -8,7 +8,7 @@ function RouterComponents() {
 
     <div className='content'>
         <Switch>
-            <Route path="/" element={<Home/> }/>
+            <Route index path="/web" element={<Home/> }/>
             <Route path="/cats" element={<Cats/> }/>
             <Route path="/projects" element={<Projects/> }/>
         </Switch>

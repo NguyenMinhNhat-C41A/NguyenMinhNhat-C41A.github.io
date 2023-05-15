@@ -3,8 +3,8 @@ import MediaCard from './Card'
 
 
 const info = [
-  {name:"BattleTextSim4", content:""},
-  {name:"Matching-Patterns", content:""},
+  {name:"BattleTextSim4", link:"https://github.com/NguyenMinhNhat-C41A/BattleTextSim4"},
+  {name:"Matching-Patterns", link:"https://github.com/NguyenMinhNhat-C41A/Matching-Patterns"},
 ]
 
 function ProjectComponents() {

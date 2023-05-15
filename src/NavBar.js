@@ -9,7 +9,7 @@ function NavBar() {
                 <nav>
                     <h2>
                          
-                        <a href="/">NGUYEN MINH NHAT</a>
+                        <a href="/web">NGUYEN MINH NHAT</a>
                     </h2>   
                     <ul>
                         <li>

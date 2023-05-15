@@ -3,6 +3,7 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
 
 export default function MediaCard(props) {
       const {item} = props;
@@ -18,7 +19,9 @@ export default function MediaCard(props) {
         {item.content}
         </Typography>
       </CardContent>
+
       <CardActions>
+        <Button size="small" href = {item.link}>Link</Button>
       </CardActions>
     </Card>
   );

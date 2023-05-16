@@ -4,6 +4,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import "./Styles/Card.css"
 
 export default function MediaCard(props) {
       const {item} = props;
@@ -21,7 +22,7 @@ export default function MediaCard(props) {
       </CardContent>
 
       <CardActions>
-        <Button size="small" href = {item.link}>Link</Button>
+        <Button classname = "linkButton" variant='solid' colorScheme='blue' size="small" href = {item.link}>Link</Button>
       </CardActions>
     </Card>
   );

@@ -1,7 +1,5 @@
-//import {FaBars, FaTimes} from "react-icons/fa"
-import "./Styles/main.css"
+import "./Styles/NavBar.css"
 function NavBar() {
-    // const navRef = useRef();
     return (
         <header>
             <div className="HeaderClass">
@@ -20,7 +18,6 @@ function NavBar() {
                         </li>
                     
                     </ul> 
-                    
                 </nav>
             </div>
             

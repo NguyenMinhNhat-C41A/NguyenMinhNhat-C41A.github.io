@@ -1,6 +1,6 @@
 import {Route, Routes as Switch} from 'react-router-dom';
 import React from 'react'
-import Cats from './Cats';
+import Cats from './Logo';
 import Home from './Home';
 import Projects from './Projects';
 function RouterComponents() {

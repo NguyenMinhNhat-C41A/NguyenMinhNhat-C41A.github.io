@@ -16,6 +16,9 @@ function NavBar() {
                         <li>
                             <a className="headerLinks" href="/cats">Cats</a>
                         </li>
+                        <li>
+                            <a className="headerLinks" href="/games">Games</a>
+                        </li>
                     
                     </ul> 
                 </nav>

@@ -11,7 +11,7 @@ return (
         <NavBar/>
     </div>
     <div>
-        <Logo/>
+      <Logo/>
     </div>
     <RouterComponents/>
  
